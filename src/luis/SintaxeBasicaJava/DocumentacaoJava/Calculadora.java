@@ -1,4 +1,4 @@
-package luis.DocumentacaoJava;
+package luis.SintaxeBasicaJava.DocumentacaoJava;
 
 /**
  * <h1>Calculadora</h1>

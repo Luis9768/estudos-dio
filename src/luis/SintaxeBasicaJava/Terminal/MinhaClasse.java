@@ -1,4 +1,4 @@
-package luis.Terminal;
+package luis.SintaxeBasicaJava.Terminal;
 
 import java.util.Scanner;
 import java.util.Locale;

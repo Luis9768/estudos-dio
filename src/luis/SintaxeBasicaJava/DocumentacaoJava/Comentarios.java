@@ -1,4 +1,4 @@
-package luis.DocumentacaoJava;
+package luis.SintaxeBasicaJava.DocumentacaoJava;
 
 public class Comentarios {
     public static void main(String[] args){

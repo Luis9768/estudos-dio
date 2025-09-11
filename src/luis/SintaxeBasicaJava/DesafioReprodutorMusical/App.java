@@ -1,4 +1,4 @@
-package luis.DesafioReprodutorMusical;
+package luis.SintaxeBasicaJava.DesafioReprodutorMusical;
 
 public class App {
     boolean liga;
