@@ -1,4 +1,4 @@
-package luis.luis.FundamentosPooJava.Mercado;
+package luis.luis.FundamentosPooJava.GetersSeters.Mercado;
 
 public class TestProduct {
     public static void main(String[] args) {

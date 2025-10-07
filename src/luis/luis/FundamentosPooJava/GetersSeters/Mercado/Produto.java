@@ -1,4 +1,4 @@
-package luis.luis.FundamentosPooJava.Mercado;
+package luis.luis.FundamentosPooJava.GetersSeters.Mercado;
 
 public class Produto {
     private String name;
