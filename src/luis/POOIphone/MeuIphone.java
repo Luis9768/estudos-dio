@@ -9,7 +9,7 @@ public class MeuIphone {
         System.out.println("=================================================");
 
         System.out.println("\n--- 1. Reprodutor Musical ---");
-        meuIphone.selecionarMusica("Thriller - Michael Jackson");
+        meuIphone.selecionarMusica("Fé meu levado - Caio Ocean");
         meuIphone.tocar();
         meuIphone.pausar();
 
