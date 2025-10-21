@@ -12,7 +12,8 @@ public class Main {
                         new Vendedor("Vanessa", 18, 36.520),
                         new Vendedor("Claudio", 26, 48.500),
                         new Vendedor("Santiago", 37, 54.200),
-                        new Vendedor("Cássia", 32, 40.000)
+                        new Vendedor("Cássia", 32, 40.000),
+                        new Vendedor("Marcos",22,56000.54)
                 )
         );
         System.out.println("---------------------------------------------------------------------");
