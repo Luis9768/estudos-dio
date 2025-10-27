@@ -1,4 +1,4 @@
-package luis.CollectionsJava.InterfaceList.Tarefas;
+package luis.CollectionsJava.InterfaceList.Ordenacao.Tarefas;
 
 import java.util.ArrayList;
 import java.util.List;
