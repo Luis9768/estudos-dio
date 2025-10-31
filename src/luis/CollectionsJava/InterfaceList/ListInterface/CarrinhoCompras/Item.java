@@ -1,4 +1,4 @@
-package luis.CollectionsJava.InterfaceList.Ordenacao.CarrinhoCompras;
+package luis.CollectionsJava.InterfaceList.ListInterface.CarrinhoCompras;
 
 public class Item {
     private String nome;;

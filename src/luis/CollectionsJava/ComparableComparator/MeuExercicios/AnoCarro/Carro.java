@@ -7,25 +7,44 @@ public class Carro {
     private double preco;
     private double kilometragem;
 
-
-    public Carro (String no, String mar, int anoF, double pre, double km) {
+    //Instanciando o carro
+    public Carro(String no, String mar, int anoF, double pre, double km) {
         this.nome = no;
         this.marca = mar;
         this.anoFabricacao = anoF;
         this.preco = pre;
         this.kilometragem = km;
     }
-    public int compareTo(Carro c){
-        int comparacaoAno = Integer.compare(c.anoFabricacao,this.anoFabricacao);
-        if(comparacaoAno == 0)
-        {
-            comparacaoAno = this.nome.compareTo(c.getNome());
-        }return comparacaoAno;
+
+    //metodos getters
+    public String getNome() {
+        return nome;
     }
-    public String getNome(){return nome;}
-    public String getMarca(){return marca;}
-    public int getAnoFabricacao(){return anoFabricacao;}
-    public double getPreco(){return preco;}
-    public double getKilometragem(){return kilometragem;}
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public int getAnoFabricacao() {
+        return anoFabricacao;
+    }
+
+    public double getPreco() {
+        return preco;
+    }
+
+    public double getKilometragem() {
+        return kilometragem;
+    }
+
+    //iniciando as tratativas do compareTo
+    public int compareTo(Carro c) {          // meteodo para comparar
+        int comparacaoAno = Integer.compare(c.anoFabricacao, this.anoFabricacao);//variavel para guardar a comparação pelo ano de fabricação
+        if (comparacaoAno == 0)//se for igual a 0...
+        {
+            comparacaoAno = this.nome.compareTo(c.getNome());//a comaração é realizada pelo nome em ordem alfabetica...
+        }
+        return comparacaoAno;//e retorna a comparação
+    }
 
 }

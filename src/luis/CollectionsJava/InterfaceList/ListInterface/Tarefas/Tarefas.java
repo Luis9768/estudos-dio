@@ -1,4 +1,4 @@
-package luis.CollectionsJava.InterfaceList.Ordenacao.Tarefas;
+package luis.CollectionsJava.InterfaceList.ListInterface.Tarefas;
 
 public class Tarefas {
 //atributo

@@ -1,4 +1,4 @@
-package luis.CollectionsJava.InterfaceList.Ordenacao.CarrinhoCompras;
+package luis.CollectionsJava.InterfaceList.ListInterface.CarrinhoCompras;
 
 import java.util.ArrayList;
 import java.util.List;
