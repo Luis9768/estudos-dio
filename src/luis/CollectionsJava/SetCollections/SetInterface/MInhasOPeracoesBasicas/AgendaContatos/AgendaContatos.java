@@ -13,12 +13,13 @@ public class AgendaContatos {
     public void exibirListaContatos(){
         System.out.println(contatoSet);
     }
-    public String pesquisarPorNome(String nome){
+    public Set<Contato> pesquisarPorNome(String nome){
+        Set<Contato> contatosPorNome = new HashSet<>();
         for(Contato c: contatoSet){
-            if(c.getNome().equalsIgnoreCase(nome)){
-                return c.getNumeroTelefone();
+            if(c.getNome().startsWith(nome)){
+                contatosPorNome.add(c);
             }
-        }return "Contato não encontrado";
+        }return contatosPorNome;
     }
     public void atualizarNumeroContato(String nome, String novoNumero) {
         for (Contato c : contatoSet) {
@@ -38,7 +39,7 @@ public class AgendaContatos {
         agendaContatos.exibirListaContatos();
         System.out.println("---------------------------------------------------------------------------------------");
 
-        System.out.println(agendaContatos.pesquisarPorNome("Luis Miguel"));
+        System.out.println(agendaContatos.pesquisarPorNome("Luís Miguel"));
         System.out.println(agendaContatos.pesquisarPorNome("Kauã Antonio"));
         agendaContatos.exibirListaContatos();
         System.out.println("---------------------------------------------------------------------------------------");
@@ -46,5 +47,6 @@ public class AgendaContatos {
         agendaContatos.atualizarNumeroContato("Luis Miguel","(11) 94123-7855");
         agendaContatos.atualizarNumeroContato("Antonia Carla","(11) 96663-4511");
         agendaContatos.exibirListaContatos();
+        System.out.println(agendaContatos.pesquisarPorNome("Luís"));
     }
 }
