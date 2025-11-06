@@ -31,6 +31,8 @@ Projetos práticos e desafios da DIO
 
 ✅ Terminal / Linux
 
+✅POO
+
 ✅ Algoritmos e Estruturas de Dados (conforme avançar)
 
 📁 Estrutura do Repositório
